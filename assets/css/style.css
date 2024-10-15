@@ -318,3 +318,14 @@ css de areas especificas
 .section-projects--filters li:first-child{
     border-left: 0;
 }
+
+.section-projects--photos{
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    background-color: red;
+}
+
+.section-projects--photo{
+
+}
