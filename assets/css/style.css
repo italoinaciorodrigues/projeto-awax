@@ -65,6 +65,19 @@ header{
     color: #CCC;
 }
 
+.button{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    background-color: #b28756;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
 
 .banner{
     height: calc(100vh - 100px);
@@ -109,20 +122,6 @@ header{
 .banner h2{
     text-transform: uppercase;
     margin-top: 20px;
-}
-
-
-.banner .slidearea a{
-    display: block;
-    text-decoration: none;
-    font-weight: 600;
-    color: #CCC;
-    text-transform: uppercase;
-    margin-top: 30px;
-    background-color: #b28756;
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 12px;
 }
 
 .banner .sliders-pointers{
@@ -193,6 +192,8 @@ header{
 .default.dark .section-title, .default.dark .section-body{
     color: #fff;
 }
+
+
 
 
 
@@ -323,9 +324,207 @@ css de areas especificas
     width: 100vw;
     max-width: 1140px;
     margin-top: 20px;
-    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .section-projects--photo{
+    width: 280px;
+}
 
+.section-projects--photoarea{
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-projects--photoarea img{
+    width: inherit;
+    height: inherit;
+}
+
+.section-projects--photoinfo{
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+}
+
+.section-projects--photoinfo h4{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.section-projects--photoarea:hover .section-projects--photoinfo{
+    display: flex;
+}
+
+.bg-team{
+    background-image: url('../image/bg.jpg');
+    padding: 0;
+}
+
+.section-team-area{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-team{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+
+
+.section-team .sliders{
+    width: 400vw;
+    height: 100%;
+}
+
+.section-team .slide{
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 20px;
+
+}
+
+.section-team .slidearea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding: 30px;
+}
+
+
+.section-team-area  .sliders-pointers{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-team-area  .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-team-area .pointer.active{
+    background-color: #b28756;
+}
+
+.section-team--avatar{
+    width: 150px;
+    height: auto;
+}
+
+.section-team--name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+
+}
+
+.section-team--role{
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+    
+}
+
+.section-team--social{
+    display: flex;
+    margin-top: 20px;
+ 
+}
+
+.section-team--social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    background-color: #CCC;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+.section-team--social a:hover{
+    background-color: #b28756;
+}
+
+
+.section-reviews--photo{
+  display: flex;
+  justify-content: center;
+}
+
+.section-reviews--photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-reviews--photos img{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section-reviews--name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+} 
+
+.section-reviews--role{
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.section-reviews--photos p{
+    text-align: center;
+    color: #555;
+}
+
+.section-reviews  .sliders-pointers{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-reviews .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-reviews .pointer.active{
+    background-color: #b28756;
 }
