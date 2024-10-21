@@ -513,6 +513,7 @@ css de areas especificas
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .section-reviews .pointer{
@@ -523,8 +524,141 @@ css de areas especificas
     margin-left: 5px;
     margin-right: 5px;
     cursor: pointer;
+
 }
 
 .section-reviews .pointer.active{
     background-color: #b28756;
 }
+
+.section-reviews--patrocinio{
+ 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.section-reviews--patrocinio-img{
+    padding: 40px;
+}
+
+
+
+
+
+.section-body-values{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.section-price-values{
+    justify-content: center;
+    text-align: center;
+    background-color: #fdfdfd;
+
+    height: auto;
+    padding: 30px;
+}
+
+.section-price-values h2{
+    font-size: 18px;
+    padding: 8px;
+    
+}
+
+.section-price-values h1{
+    font-size: 30px; 
+}
+
+.section-price-values h5{
+    font-size: 10px; 
+    text-transform: uppercase;
+    color: #CCC;
+    padding-bottom: 10px;
+}
+
+.section-price-values p{
+    font-size: 10px; 
+    color: #999;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.section-box{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    
+}
+
+.section-box--left{
+    flex-direction: column;
+    flex: 1;
+}
+
+.section-box--right-img{
+    width: 520px;
+   text-align: center;
+}
+
+.section-box--right-img{
+    width: 480px;
+    padding-bottom: 20px;
+}
+
+.section-box--left p{
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 60px;
+   
+    color: #999;
+}        
+
+
+.section-box--left-list{
+    padding-top: 20px;
+    display: flex;
+    
+}
+
+.section-box--left-list h1{
+    padding-left: 20px;
+    text-transform: uppercase;
+  
+}
+
+.section-body  .sliders-pointers-box{
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.section-body .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.section-body .pointer.active{
+    background-color: #b28756;
+}
+
+.button-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
